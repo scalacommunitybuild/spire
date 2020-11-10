@@ -21,7 +21,7 @@ crossScalaVersionsFromTravis in Global := {
 
 lazy val scalaCollectionCompatVersion = "2.2.0"
 
-lazy val scalaCheckVersion = "1.14.3"
+lazy val scalaCheckVersion = "1.15.1"
 lazy val scalaTestVersion = "3.2.2"
 lazy val scalaTestPlusVersion = "3.2.2.0"
 
@@ -466,7 +466,7 @@ lazy val scalaCheckSettings  = Seq(libraryDependencies += "org.scalacheck" %%% "
 
 lazy val scalaTestSettings = Seq(
   libraryDependencies += "org.scalatest" %%% "scalatest" % scalaTestVersion % Test,
-  libraryDependencies += "org.scalatestplus" %%% "scalacheck-1-14" % scalaTestPlusVersion % Test,
+  libraryDependencies += "org.scalatestplus" %%% "scalacheck-1-15" % scalaTestPlusVersion % Test,
   libraryDependencies += "com.chuusai" %% "shapeless" % shapelessVersion % Test
 )
 
